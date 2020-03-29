@@ -21,8 +21,6 @@
             </group> 
             <group id="deliveryslots" translate="label" type="text" sortOrder="100" showInDefault="1" showInWebsite="1" showInStore="1">
                 <label>Delivery Slots</label>
-                <tab>sales</tab>
-                <resource>Magikkart_DeliveryDate::deliveryslots</resource>
                  <field id="addslot" translate="label" type="label" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Add Time Slots</label>
                     <frontend_model>Magikkart\DeliveryDate\Block\Addslot</frontend_model>
